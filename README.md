@@ -9,12 +9,14 @@ The dataset consists of response metrics for 60 different sonar frequencies rang
 The challenge involves classifying these objects using various machine learning algorithms and tuning their hyperparameters to achieve the best performance.
 
 **Dataset**
+
 Features: 60 sonar frequency metrics (ranging from 0.0 to 1.0)
 Labels:
 "M" for mines
 "R" for rocks
 
-**Algorithms and Hyperparameter Tuning**
+**Algorithms and Hyperparameter Tuning: **
+
 Different machine learning algorithms were tested, including:
 
    1. Logistic Regression
@@ -26,11 +28,13 @@ Different machine learning algorithms were tested, including:
 
 Hyperparameters were tuned using techniques like RandomizedSearchCV to find the optimal configuration for each algorithm.
 
-**Results**
+**Results :**
+
 After extensive experimentation and tuning, the Random Forest (RF) algorithm performed the best. 
 The model achieved high accuracy and demonstrated strong performance in distinguishing between mines and rocks.
 
-**Performance Metrics**
+**Performance Metrics: **
+
 1. Logistic Regression: Accuracy: 0.74
 2. Decision Tree: Accuracy: 0.67
 3. Random Forest: Accuracy: 0.95
@@ -39,5 +43,6 @@ The model achieved high accuracy and demonstrated strong performance in distingu
 6. KNN: Accuracy: 0.86
 
 **Conclusion**
+
 The Random Forest model emerged as the best performer in classifying sonar data into mines and rocks. 
 The project highlights the importance of selecting the right algorithm and tuning hyperparameters for optimal performance in machine learning tasks.
