@@ -33,7 +33,7 @@ Hyperparameters were tuned using techniques like RandomizedSearchCV to find the 
 After extensive experimentation and tuning, the Random Forest (RF) algorithm performed the best. 
 The model achieved high accuracy and demonstrated strong performance in distinguishing between mines and rocks.
 
-**Performance Metrics: **
+**Performance Metrics:**
 
 1. Logistic Regression: Accuracy: 0.74
 2. Decision Tree: Accuracy: 0.67
